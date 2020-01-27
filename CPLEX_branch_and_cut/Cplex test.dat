@@ -1,0 +1,13 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: li18
+ * Creation Date: 2019年4月25日 at 下午3:37:34
+ *********************************************/
+ns=40; //# of sites
+nc=100; //# of combinations
+
+
+SheetConnection SheetInput("2.xlsx");
+CombSF from SheetRead(SheetInput,"'A'!C2:C101");
+dl from SheetRead(SheetInput,"'A'!A2:A41");
+du from SheetRead(SheetInput,"'A'!B2:B41");
