@@ -1,0 +1,1 @@
+Run mainga.m file only, in the folder having all other files.
